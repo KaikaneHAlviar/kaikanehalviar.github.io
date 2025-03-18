@@ -59,6 +59,11 @@ body {
     text-decoration: none;
 }
 
+.back-button {
+    @extend .button;
+    margin-left: 0;
+}
+
 .pamphlets {
     display: flex;
     flex-wrap: wrap;
