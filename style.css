@@ -24,14 +24,28 @@ body {
     gap: 10px;
 }
 
+.language-button.english { background-color: #4CAF50; }    /* Green */
+.language-button.spanish { background-color: #F44336; }    /* Red */
+.language-button.chinese { background-color: #2196F3; }    /* Blue */
+.language-button.somali { background-color: #FF9800; }     /* Orange */
+.language-button.french { background-color: #9C27B0; }     /* Purple */
+.language-button.russian { background-color: #3F51B5; }    /* Indigo */
+.language-button.vietnamese { background-color: #00BCD4; } /* Cyan */
+.language-button.korean { background-color: #FFC107; }     /* Amber */
+.language-button.hindi { background-color: #8BC34A; }      /* Light Green */
+.language-button.portuguese { background-color: #FF5722; } /* Deep Orange */
+
 .language-button {
     background-color: #4b286d;
     color: #fff;
-    padding: 10px 20px;
+    padding: 7.5px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1.2em;
+
+.language-button:hover {
+    opacity: 0.9;
 }
 
 .content {
