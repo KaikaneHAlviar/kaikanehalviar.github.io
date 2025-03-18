@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f7fc;
+}
+
+.header {
+    background-color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #4b286d;
+}
+
+.header img {
+    height: 40px;
+}
+
+.language-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.language-button {
+    background-color: #4b286d;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.content h1 {
+    color: #4b286d;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button {
+    background-color: #9174c4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pamphlets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.pamphlet-item {
+    background-color: #4b286d;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.info-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #4b286d;
+    text-align: left;
+}
+
+.info-section h3 {
+    color: #4b286d;
+}
+
+.faq {
+    margin-top: 40px;
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 3px solid #4b286d;
+}
+
+.faq h3 {
+    color: #4b286d;
+}
+
+.footer {
+    background-color: #4b286d;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.1em;
+}
+
+.footer .info-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.footer .info-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.footer .info-links a:hover {
+    text-decoration: underline;
+}
+
+.video-placeholder {
+    width: 100%;
+    max-width: 600px;
+    height: 315px;
+    background-color: #ddd;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .buttons, .pamphlets {
+        flex-direction: column;
+    }
+    .footer .info-links {
+        flex-direction: column;
+        text-align: center;
+    }
+}
